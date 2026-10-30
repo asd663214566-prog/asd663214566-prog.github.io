@@ -6,7 +6,7 @@ import json, os, sys, shutil
 from pathlib import Path
 from PIL import Image
 ROOT = Path(__file__).parent; IMG = ROOT / "images"
-CATS = {"2d": "2D Artwork", "3d": "3D Portfolio", "animation": "Spine & HCG Animation", "logo": "Game Logo Design"}
+CATS = {"2d": "2D Artwork", "3d": "3D Portfolio", "anim": "Animation", "logo": "Game Logo Design"}
 VID = {".mp4", ".webm", ".gif"}; MAXV = 20 * 1024 * 1024
 def has_alpha(im):
     if im.mode in ("RGBA", "LA") or (im.mode == "P" and "transparency" in im.info):
@@ -48,7 +48,13 @@ def index():
         for f in sorted(d.iterdir()):
             if not f.is_file(): continue
             e = f.suffix.lower(); it = {"cat": slug, "src": f"images/{slug}/{f.name}", "title": label}
-            if e in (".mp4", ".webm"): it["type"] = "video"
+            if e in (".mp4", ".webm"):
+                it["type"] = "video"
+                for pe in (".jpg", ".png"):  # poster sits flat next to the video (same stem)
+                    if (d / (f.stem + pe)).exists():
+                        it["poster"] = f"images/{slug}/{f.stem}{pe}"
+                        im = Image.open(d / (f.stem + pe)); it["w"], it["h"] = im.size; break
+            elif any((d / (f.stem + ve)).exists() for ve in (".mp4", ".webm")): continue  # poster, not a gallery item
             else:
                 t = d / "thumbs" / f.name
                 it["thumb"] = f"images/{slug}/thumbs/{f.name}" if t.exists() else it["src"]
