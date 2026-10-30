@@ -673,15 +673,6 @@
  },
  {
   "cat": "anim",
-  "src": "images/anim/anim-003.mp4",
-  "title": "Animation",
-  "type": "video",
-  "poster": "images/anim/anim-003.jpg",
-  "w": 648,
-  "h": 1280
- },
- {
-  "cat": "anim",
   "src": "images/anim/anim-004.mp4",
   "title": "Animation",
   "type": "video",
