@@ -39,3 +39,4 @@ footer{text-align:center;color:var(--mut);padding:30px;font-size:.85rem;border-t
 #lb button{position:absolute;background:none;border:0;color:#fff;font-size:2.4rem;cursor:pointer;padding:16px}
 #lb .x{top:8px;right:14px}#lb .p{left:8px}#lb .n{right:8px}#lb .c{position:absolute;bottom:14px;color:var(--mut);font-size:.85rem}
 @media(max-width:760px){nav ul{gap:12px}nav ul li:nth-child(n+4){display:none}.about{grid-template-columns:1fr}.grid{columns:2 150px;column-gap:8px}.card{margin-bottom:8px}section{padding:70px 5vw}}
+.me{display:flex;align-items:center;gap:22px;margin-bottom:8px}.me img{width:140px;height:140px;border-radius:18px;object-fit:cover;border:3px solid #262938}.me h2{margin:0}
