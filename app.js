@@ -1,7 +1,7 @@
 const LINKS=[
- {cat:'ai',title:'AI-Assisted Anime-Style Art',desc:'AI-assisted anime-style illustration. Hosted externally.',url:'https://drive.google.com/drive/folders/1T2UPp_312KpDKcYWwseq76BCTgn0SSXo',mature:true}
+ {cat:'ai',title:'2D Anime-Style Art (AI-Assisted)',desc:'2D Japanese anime-style character illustrations created with an AI-assisted workflow, then refined and finished by hand. Hosted externally.',url:'https://drive.google.com/drive/folders/1T2UPp_312KpDKcYWwseq76BCTgn0SSXo',mature:true}
 ].concat(window.EXTRA_LINKS||[]);
-const CATS={all:'All','2d':'2D Artwork','3d':'3D Portfolio',anim:'Animation',logo:'Game Logo Design',ai:'AI-Assisted (18+)'};
+const CATS={all:'All','2d':'2D Artwork','3d':'3D Portfolio',anim:'Animation',logo:'Game Logo Design',ai:'2D Anime · AI-Assisted (R18)'};
 const items=window.GALLERY||[];const grid=document.getElementById('grid'),tabs=document.getElementById('tabs');let cur='all',vis=[];
 Object.entries(CATS).forEach(([k,v])=>{const b=document.createElement('button');b.textContent=v;b.onclick=()=>{cur=k;render()};b.dataset.k=k;tabs.appendChild(b)});
 const vio='IntersectionObserver' in window?new IntersectionObserver(es=>es.forEach(e=>{const v=e.target;if(e.isIntersecting){if(!v.src)v.src=v.dataset.src;v.play().catch(()=>{})}else v.pause()}),{rootMargin:'200px'}):null;
@@ -12,7 +12,7 @@ function render(){if(vio)vio.disconnect();tabs.querySelectorAll('button').forEac
   a.innerHTML+=`<span class="tag">${it.title}</span>`;a.onclick=()=>open(ix);
   grid.appendChild(a);if(it.type==='video'){const v=a.querySelector('video');v.muted=true;vio?vio.observe(v):(v.src=v.dataset.src)}});
  LINKS.filter(l=>cur==='all'||l.cat===cur).forEach(l=>{const a=document.createElement('a');a.className='card link'+(l.mature?' mature':'');a.href=l.url;a.target='_blank';a.rel='noopener';
-  a.innerHTML=`${l.mature?'<div class="badge">18+ MATURE CONTENT</div>':''}<h3>${l.title}</h3><p>${l.desc}${l.mature?' Contains mature content — viewer discretion advised.':''}</p><span>Open Google Drive folder →</span>`;grid.appendChild(a)})}
+  a.innerHTML=`${l.mature?'<div class="badge">R18 · MATURE CONTENT</div>':''}<h3>${l.title}</h3><p>${l.desc}${l.mature?' Contains mature content — viewer discretion advised.':''}</p><span>Open Google Drive folder →</span>`;grid.appendChild(a)})}
 render();
 const lb=document.getElementById('lb'),stage=document.getElementById('stage'),cap=lb.querySelector('.c');let li=0;
 function open(i){li=i;show();lb.classList.add('open')}
