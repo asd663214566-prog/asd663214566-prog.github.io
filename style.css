@@ -1,6 +1,7 @@
 :root{--bg:#0c0d12;--bg2:#14161e;--fg:#e9e9ef;--mut:#9a9cab;--ac:#ff5a5f;--ac2:#7c5cff}
 *{box-sizing:border-box}html{scroll-behavior:smooth}
 body{margin:0;background:var(--bg);color:var(--fg);font-family:'Inter','Noto Sans TC','PingFang TC','Microsoft JhengHei',sans-serif;line-height:1.6}
+[lang="zh-Hant"]{font-family:'Noto Sans TC','PingFang TC','Microsoft JhengHei',sans-serif}
 a{color:inherit}
 nav{position:fixed;top:0;left:0;right:0;z-index:50;display:flex;justify-content:space-between;align-items:center;padding:14px 5vw;background:rgba(12,13,18,.8);backdrop-filter:blur(10px)}
 nav .logo{font-family:'Space Grotesk',sans-serif;font-weight:700;letter-spacing:.1em;text-decoration:none}
