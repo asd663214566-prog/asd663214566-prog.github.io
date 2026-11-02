@@ -6,7 +6,7 @@ import json, os, sys, shutil
 from pathlib import Path
 from PIL import Image
 ROOT = Path(__file__).parent; IMG = ROOT / "images"
-CATS = {"2d": "2D Artwork", "3d": "3D Portfolio", "anim": "Animation", "logo": "Game Logo Design", "slot": "Slot Art"}
+CATS = {"2d": "2D Artwork", "3d": "3D Portfolio", "anim": "Animation", "logo": "Game Logo Design", "slot": "Slot"}
 VID = {".mp4", ".webm", ".gif"}; MAXV = 20 * 1024 * 1024
 def has_alpha(im):
     if im.mode in ("RGBA", "LA") or (im.mode == "P" and "transparency" in im.info):

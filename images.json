@@ -758,6 +758,30 @@
   "h": 674
  },
  {
+  "cat": "3d",
+  "src": "images/3d/3d-022.jpg",
+  "title": "3D Portfolio",
+  "thumb": "images/3d/thumbs/3d-022.jpg",
+  "w": 557,
+  "h": 532
+ },
+ {
+  "cat": "3d",
+  "src": "images/3d/3d-023.jpg",
+  "title": "3D Portfolio",
+  "thumb": "images/3d/thumbs/3d-023.jpg",
+  "w": 755,
+  "h": 448
+ },
+ {
+  "cat": "3d",
+  "src": "images/3d/3d-024.jpg",
+  "title": "3D Portfolio",
+  "thumb": "images/3d/thumbs/3d-024.jpg",
+  "w": 521,
+  "h": 424
+ },
+ {
   "cat": "anim",
   "src": "images/anim/anim-001.mp4",
   "title": "Animation",
@@ -896,7 +920,7 @@
  {
   "cat": "slot",
   "src": "images/slot/slot-001.jpg",
-  "title": "Slot Art",
+  "title": "Slot",
   "thumb": "images/slot/thumbs/slot-001.jpg",
   "w": 1600,
   "h": 900
@@ -904,7 +928,7 @@
  {
   "cat": "slot",
   "src": "images/slot/slot-002.jpg",
-  "title": "Slot Art",
+  "title": "Slot",
   "thumb": "images/slot/thumbs/slot-002.jpg",
   "w": 1280,
   "h": 720
@@ -912,7 +936,7 @@
  {
   "cat": "slot",
   "src": "images/slot/slot-003.jpg",
-  "title": "Slot Art",
+  "title": "Slot",
   "thumb": "images/slot/thumbs/slot-003.jpg",
   "w": 1600,
   "h": 700
@@ -920,7 +944,7 @@
  {
   "cat": "slot",
   "src": "images/slot/slot-004.jpg",
-  "title": "Slot Art",
+  "title": "Slot",
   "thumb": "images/slot/thumbs/slot-004.jpg",
   "w": 1600,
   "h": 902
@@ -928,7 +952,7 @@
  {
   "cat": "slot",
   "src": "images/slot/slot-005.jpg",
-  "title": "Slot Art",
+  "title": "Slot",
   "thumb": "images/slot/thumbs/slot-005.jpg",
   "w": 1280,
   "h": 720
@@ -936,7 +960,7 @@
  {
   "cat": "slot",
   "src": "images/slot/slot-006.jpg",
-  "title": "Slot Art",
+  "title": "Slot",
   "thumb": "images/slot/thumbs/slot-006.jpg",
   "w": 1600,
   "h": 1007
@@ -944,7 +968,7 @@
  {
   "cat": "slot",
   "src": "images/slot/slot-007.png",
-  "title": "Slot Art",
+  "title": "Slot",
   "thumb": "images/slot/thumbs/slot-007.png",
   "w": 1600,
   "h": 900
@@ -952,7 +976,7 @@
  {
   "cat": "slot",
   "src": "images/slot/slot-008.png",
-  "title": "Slot Art",
+  "title": "Slot",
   "thumb": "images/slot/thumbs/slot-008.png",
   "w": 1600,
   "h": 551
@@ -960,7 +984,7 @@
  {
   "cat": "slot",
   "src": "images/slot/slot-009.png",
-  "title": "Slot Art",
+  "title": "Slot",
   "thumb": "images/slot/thumbs/slot-009.png",
   "w": 1600,
   "h": 1681
@@ -968,7 +992,7 @@
  {
   "cat": "slot",
   "src": "images/slot/slot-010.png",
-  "title": "Slot Art",
+  "title": "Slot",
   "thumb": "images/slot/thumbs/slot-010.png",
   "w": 1600,
   "h": 608
@@ -976,9 +1000,25 @@
  {
   "cat": "slot",
   "src": "images/slot/slot-011.jpg",
-  "title": "Slot Art",
+  "title": "Slot",
   "thumb": "images/slot/thumbs/slot-011.jpg",
   "w": 1600,
   "h": 900
+ },
+ {
+  "cat": "slot",
+  "src": "images/slot/slot-012.jpg",
+  "title": "Slot",
+  "thumb": "images/slot/thumbs/slot-012.jpg",
+  "w": 493,
+  "h": 293
+ },
+ {
+  "cat": "slot",
+  "src": "images/slot/slot-013.jpg",
+  "title": "Slot",
+  "thumb": "images/slot/thumbs/slot-013.jpg",
+  "w": 493,
+  "h": 276
  }
 ]

@@ -46,4 +46,3 @@ footer{text-align:center;color:var(--mut);padding:30px;font-size:.85rem;border-t
 @media(prefers-reduced-motion:reduce){.hero-photo{transition:none;transform:none}}
 .hero{background:linear-gradient(90deg,rgba(10,10,16,.88) 0%,rgba(10,10,16,.6) 50%,rgba(10,10,16,.45) 100%),linear-gradient(0deg,var(--bg) 0%,transparent 25%),url(bg-scene1.jpg) center/cover no-repeat}
 
-.subtabs{margin-top:-16px;font-size:.92em}.subtabs button{padding:5px 14px;opacity:.85}

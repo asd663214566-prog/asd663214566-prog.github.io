@@ -1,14 +1,12 @@
 const LINKS=[
  {cat:'ai',title:'2D Anime-Style Art (AI-Assisted)',desc:'2D Japanese anime-style character illustrations created with an AI-assisted workflow, then refined and finished by hand. Hosted externally.',url:'https://drive.google.com/drive/folders/1T2UPp_312KpDKcYWwseq76BCTgn0SSXo',mature:true}
 ].concat(window.EXTRA_LINKS||[]);
-const CATS={all:'All','2d':'2D Artwork','3d':'3D Portfolio',anim:'Animation',logo:'Game Logo Design',ai:'2D Anime · AI-Assisted (R18)'};
-const items=window.GALLERY||[];const grid=document.getElementById('grid'),tabs=document.getElementById('tabs');let cur='all',sub='all',vis=[];
-const SUBS={'2d':{all:'All 2D',slot:'Slot'}};const PARENT={slot:'2d'};const subtabs=document.createElement('div');subtabs.className='tabs subtabs';tabs.after(subtabs);
-Object.entries(CATS).forEach(([k,v])=>{const b=document.createElement('button');b.textContent=v;b.onclick=()=>{cur=k;sub='all';render()};b.dataset.k=k;tabs.appendChild(b)});
+const CATS={all:'All','2d':'2D Artwork',slot:'Slot','3d':'3D Portfolio',anim:'Animation',logo:'Game Logo Design',ai:'2D Anime · AI-Assisted (R18)'};
+const items=window.GALLERY||[];const grid=document.getElementById('grid'),tabs=document.getElementById('tabs');let cur='all',vis=[];
+Object.entries(CATS).forEach(([k,v])=>{const b=document.createElement('button');b.textContent=v;b.onclick=()=>{cur=k;render()};b.dataset.k=k;tabs.appendChild(b)});
 const vio='IntersectionObserver' in window?new IntersectionObserver(es=>es.forEach(e=>{const v=e.target;if(e.isIntersecting){if(!v.src)v.src=v.dataset.src;v.play().catch(()=>{})}else v.pause()}),{rootMargin:'200px'}):null;
 function render(){if(vio)vio.disconnect();tabs.querySelectorAll('button').forEach(b=>b.classList.toggle('on',b.dataset.k===cur));grid.innerHTML='';
- subtabs.innerHTML='';if(SUBS[cur]){Object.entries(SUBS[cur]).forEach(([k,v])=>{const b=document.createElement('button');b.textContent=v;b.dataset.k=k;b.classList.toggle('on',k===sub);b.onclick=()=>{sub=k;render()};subtabs.appendChild(b)});subtabs.style.display=''}else subtabs.style.display='none';
- vis=items.filter(i=>{const top=PARENT[i.cat]||i.cat;if(cur!=='all'&&top!==cur)return false;if(cur==='2d'&&sub!=='all'&&i.cat!==sub)return false;return true});
+ vis=items.filter(i=>cur==='all'||i.cat===cur);
  vis.forEach((it,ix)=>{const a=document.createElement('div');a.className='card';
   a.innerHTML=it.type==='video'?`<video data-src="${it.src}" ${it.poster?`poster="${it.poster}"`:''} ${it.w?`width="${it.w}" height="${it.h}"`:''} muted loop playsinline autoplay preload="none"></video>`:`<img src="${it.thumb}" alt="${it.title}" loading="lazy" ${it.w?`width="${it.w}" height="${it.h}"`:''}>`;
   a.innerHTML+=`<span class="tag">${it.title}</span>`;a.onclick=()=>open(ix);
