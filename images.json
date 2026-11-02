@@ -62,7 +62,7 @@
   "thumb": "images/2d/thumbs/2d-008.jpg",
   "w": 1600,
   "h": 825,
-  "feat": 11
+  "feat": 12
  },
  {
   "cat": "2d",
@@ -95,7 +95,8 @@
   "title": "2D Artwork",
   "thumb": "images/2d/thumbs/2d-014.jpg",
   "w": 1280,
-  "h": 720
+  "h": 720,
+  "feat": 11
  },
  {
   "cat": "2d",
@@ -147,7 +148,7 @@
   "thumb": "images/2d/thumbs/2d-020.jpg",
   "w": 1500,
   "h": 844,
-  "feat": 13
+  "feat": 14
  },
  {
   "cat": "2d",
@@ -232,7 +233,7 @@
   "thumb": "images/2d/thumbs/2d-033.jpg",
   "w": 1600,
   "h": 1600,
-  "feat": 14
+  "feat": 15
  },
  {
   "cat": "2d",
@@ -276,7 +277,8 @@
   "title": "2D Artwork",
   "thumb": "images/2d/thumbs/2d-038.jpg",
   "w": 1600,
-  "h": 828
+  "h": 828,
+  "feat": 8
  },
  {
   "cat": "2d",
@@ -338,7 +340,7 @@
   "thumb": "images/2d/thumbs/2d-047.jpg",
   "w": 1600,
   "h": 2303,
-  "feat": 12
+  "feat": 13
  },
  {
   "cat": "2d",
@@ -347,7 +349,7 @@
   "thumb": "images/2d/thumbs/2d-048.jpg",
   "w": 1600,
   "h": 800,
-  "feat": 15
+  "feat": 16
  },
  {
   "cat": "2d",
@@ -507,14 +509,6 @@
  },
  {
   "cat": "2d",
-  "src": "images/2d/2d-072.jpg",
-  "title": "2D Artwork",
-  "thumb": "images/2d/thumbs/2d-072.jpg",
-  "w": 1280,
-  "h": 720
- },
- {
-  "cat": "2d",
   "src": "images/2d/2d-073.jpg",
   "title": "2D Artwork",
   "thumb": "images/2d/thumbs/2d-073.jpg",
@@ -551,7 +545,8 @@
   "title": "2D Artwork",
   "thumb": "images/2d/thumbs/2d-078.jpg",
   "w": 1600,
-  "h": 768
+  "h": 768,
+  "feat": 10
  },
  {
   "cat": "2d",
@@ -575,7 +570,8 @@
   "title": "2D Artwork",
   "thumb": "images/2d/thumbs/2d-082.jpg",
   "w": 1600,
-  "h": 686
+  "h": 686,
+  "feat": 9
  },
  {
   "cat": "2d",
@@ -592,7 +588,7 @@
   "thumb": "images/3d/thumbs/3d-001.jpg",
   "w": 790,
   "h": 468,
-  "feat": 6
+  "feat": 5
  },
  {
   "cat": "3d",
@@ -625,7 +621,7 @@
   "thumb": "images/3d/thumbs/3d-005.jpg",
   "w": 1600,
   "h": 900,
-  "feat": 7
+  "feat": 6
  },
  {
   "cat": "3d",
@@ -641,8 +637,7 @@
   "title": "3D Portfolio",
   "thumb": "images/3d/thumbs/3d-007.jpg",
   "w": 1600,
-  "h": 765,
-  "feat": 8
+  "h": 765
  },
  {
   "cat": "3d",
@@ -706,8 +701,7 @@
   "title": "3D Portfolio",
   "thumb": "images/3d/thumbs/3d-015.jpg",
   "w": 1600,
-  "h": 689,
-  "feat": 9
+  "h": 689
  },
  {
   "cat": "3d",
@@ -748,7 +742,7 @@
   "thumb": "images/3d/thumbs/3d-020.jpg",
   "w": 1600,
   "h": 735,
-  "feat": 10
+  "feat": 7
  },
  {
   "cat": "3d",
@@ -975,8 +969,7 @@
   "title": "Slot",
   "thumb": "images/slot/thumbs/slot-005.jpg",
   "w": 1280,
-  "h": 720,
-  "feat": 3
+  "h": 720
  },
  {
   "cat": "slot",
@@ -1025,7 +1018,7 @@
   "thumb": "images/slot/thumbs/slot-011.jpg",
   "w": 1600,
   "h": 900,
-  "feat": 5
+  "feat": 3
  },
  {
   "cat": "slot",
