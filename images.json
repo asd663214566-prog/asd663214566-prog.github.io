@@ -65,27 +65,11 @@
  },
  {
   "cat": "2d",
-  "src": "images/2d/2d-009.png",
-  "title": "2D Artwork",
-  "thumb": "images/2d/thumbs/2d-009.png",
-  "w": 1600,
-  "h": 551
- },
- {
-  "cat": "2d",
   "src": "images/2d/2d-010.jpg",
   "title": "2D Artwork",
   "thumb": "images/2d/thumbs/2d-010.jpg",
   "w": 1600,
   "h": 544
- },
- {
-  "cat": "2d",
-  "src": "images/2d/2d-011.jpg",
-  "title": "2D Artwork",
-  "thumb": "images/2d/thumbs/2d-011.jpg",
-  "w": 1600,
-  "h": 1007
  },
  {
   "cat": "2d",
@@ -201,14 +185,6 @@
  },
  {
   "cat": "2d",
-  "src": "images/2d/2d-026.jpg",
-  "title": "2D Artwork",
-  "thumb": "images/2d/thumbs/2d-026.jpg",
-  "w": 1280,
-  "h": 720
- },
- {
-  "cat": "2d",
   "src": "images/2d/2d-027.jpg",
   "title": "2D Artwork",
   "thumb": "images/2d/thumbs/2d-027.jpg",
@@ -238,14 +214,6 @@
   "thumb": "images/2d/thumbs/2d-030.jpg",
   "w": 1600,
   "h": 1570
- },
- {
-  "cat": "2d",
-  "src": "images/2d/2d-031.jpg",
-  "title": "2D Artwork",
-  "thumb": "images/2d/thumbs/2d-031.jpg",
-  "w": 1280,
-  "h": 720
  },
  {
   "cat": "2d",
@@ -302,14 +270,6 @@
   "thumb": "images/2d/thumbs/2d-038.jpg",
   "w": 1600,
   "h": 828
- },
- {
-  "cat": "2d",
-  "src": "images/2d/2d-039.jpg",
-  "title": "2D Artwork",
-  "thumb": "images/2d/thumbs/2d-039.jpg",
-  "w": 1600,
-  "h": 902
  },
  {
   "cat": "2d",
@@ -385,14 +345,6 @@
  },
  {
   "cat": "2d",
-  "src": "images/2d/2d-049.jpg",
-  "title": "2D Artwork",
-  "thumb": "images/2d/thumbs/2d-049.jpg",
-  "w": 1600,
-  "h": 700
- },
- {
-  "cat": "2d",
   "src": "images/2d/2d-050.jpg",
   "title": "2D Artwork",
   "thumb": "images/2d/thumbs/2d-050.jpg",
@@ -438,22 +390,6 @@
   "thumb": "images/2d/thumbs/2d-055.jpg",
   "w": 1600,
   "h": 720
- },
- {
-  "cat": "2d",
-  "src": "images/2d/2d-056.png",
-  "title": "2D Artwork",
-  "thumb": "images/2d/thumbs/2d-056.png",
-  "w": 1600,
-  "h": 1681
- },
- {
-  "cat": "2d",
-  "src": "images/2d/2d-057.png",
-  "title": "2D Artwork",
-  "thumb": "images/2d/thumbs/2d-057.png",
-  "w": 1600,
-  "h": 608
  },
  {
   "cat": "2d",
@@ -510,14 +446,6 @@
   "thumb": "images/2d/thumbs/2d-064.jpg",
   "w": 1600,
   "h": 932
- },
- {
-  "cat": "2d",
-  "src": "images/2d/2d-065.png",
-  "title": "2D Artwork",
-  "thumb": "images/2d/thumbs/2d-065.png",
-  "w": 1600,
-  "h": 900
  },
  {
   "cat": "2d",
@@ -766,6 +694,70 @@
   "h": 900
  },
  {
+  "cat": "3d",
+  "src": "images/3d/3d-014.jpg",
+  "title": "3D Portfolio",
+  "thumb": "images/3d/thumbs/3d-014.jpg",
+  "w": 1600,
+  "h": 689
+ },
+ {
+  "cat": "3d",
+  "src": "images/3d/3d-015.jpg",
+  "title": "3D Portfolio",
+  "thumb": "images/3d/thumbs/3d-015.jpg",
+  "w": 1600,
+  "h": 689
+ },
+ {
+  "cat": "3d",
+  "src": "images/3d/3d-016.jpg",
+  "title": "3D Portfolio",
+  "thumb": "images/3d/thumbs/3d-016.jpg",
+  "w": 1600,
+  "h": 689
+ },
+ {
+  "cat": "3d",
+  "src": "images/3d/3d-017.jpg",
+  "title": "3D Portfolio",
+  "thumb": "images/3d/thumbs/3d-017.jpg",
+  "w": 1600,
+  "h": 735
+ },
+ {
+  "cat": "3d",
+  "src": "images/3d/3d-018.jpg",
+  "title": "3D Portfolio",
+  "thumb": "images/3d/thumbs/3d-018.jpg",
+  "w": 1600,
+  "h": 689
+ },
+ {
+  "cat": "3d",
+  "src": "images/3d/3d-019.jpg",
+  "title": "3D Portfolio",
+  "thumb": "images/3d/thumbs/3d-019.jpg",
+  "w": 1600,
+  "h": 689
+ },
+ {
+  "cat": "3d",
+  "src": "images/3d/3d-020.jpg",
+  "title": "3D Portfolio",
+  "thumb": "images/3d/thumbs/3d-020.jpg",
+  "w": 1600,
+  "h": 735
+ },
+ {
+  "cat": "3d",
+  "src": "images/3d/3d-021.jpg",
+  "title": "3D Portfolio",
+  "thumb": "images/3d/thumbs/3d-021.jpg",
+  "w": 1600,
+  "h": 674
+ },
+ {
   "cat": "anim",
   "src": "images/anim/anim-001.mp4",
   "title": "Animation",
@@ -900,5 +892,93 @@
   "thumb": "images/logo/thumbs/logo-009.png",
   "w": 256,
   "h": 256
+ },
+ {
+  "cat": "slot",
+  "src": "images/slot/slot-001.jpg",
+  "title": "Slot Art",
+  "thumb": "images/slot/thumbs/slot-001.jpg",
+  "w": 1600,
+  "h": 900
+ },
+ {
+  "cat": "slot",
+  "src": "images/slot/slot-002.jpg",
+  "title": "Slot Art",
+  "thumb": "images/slot/thumbs/slot-002.jpg",
+  "w": 1280,
+  "h": 720
+ },
+ {
+  "cat": "slot",
+  "src": "images/slot/slot-003.jpg",
+  "title": "Slot Art",
+  "thumb": "images/slot/thumbs/slot-003.jpg",
+  "w": 1600,
+  "h": 700
+ },
+ {
+  "cat": "slot",
+  "src": "images/slot/slot-004.jpg",
+  "title": "Slot Art",
+  "thumb": "images/slot/thumbs/slot-004.jpg",
+  "w": 1600,
+  "h": 902
+ },
+ {
+  "cat": "slot",
+  "src": "images/slot/slot-005.jpg",
+  "title": "Slot Art",
+  "thumb": "images/slot/thumbs/slot-005.jpg",
+  "w": 1280,
+  "h": 720
+ },
+ {
+  "cat": "slot",
+  "src": "images/slot/slot-006.jpg",
+  "title": "Slot Art",
+  "thumb": "images/slot/thumbs/slot-006.jpg",
+  "w": 1600,
+  "h": 1007
+ },
+ {
+  "cat": "slot",
+  "src": "images/slot/slot-007.png",
+  "title": "Slot Art",
+  "thumb": "images/slot/thumbs/slot-007.png",
+  "w": 1600,
+  "h": 900
+ },
+ {
+  "cat": "slot",
+  "src": "images/slot/slot-008.png",
+  "title": "Slot Art",
+  "thumb": "images/slot/thumbs/slot-008.png",
+  "w": 1600,
+  "h": 551
+ },
+ {
+  "cat": "slot",
+  "src": "images/slot/slot-009.png",
+  "title": "Slot Art",
+  "thumb": "images/slot/thumbs/slot-009.png",
+  "w": 1600,
+  "h": 1681
+ },
+ {
+  "cat": "slot",
+  "src": "images/slot/slot-010.png",
+  "title": "Slot Art",
+  "thumb": "images/slot/thumbs/slot-010.png",
+  "w": 1600,
+  "h": 608
+ },
+ {
+  "cat": "slot",
+  "src": "images/slot/slot-011.jpg",
+  "title": "Slot Art",
+  "thumb": "images/slot/thumbs/slot-011.jpg",
+  "w": 1600,
+  "h": 900
  }
 ]

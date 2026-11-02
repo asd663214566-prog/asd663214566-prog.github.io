@@ -45,3 +45,5 @@ footer{text-align:center;color:var(--mut);padding:30px;font-size:.85rem;border-t
 @media(hover:hover){.hero-photo:hover{--s:1.05;border-color:rgba(124,92,255,.8);filter:brightness(1.06) saturate(1.1);box-shadow:0 30px 80px rgba(0,0,0,.6),0 0 0 6px rgba(124,92,255,.35),0 0 50px rgba(255,90,95,.35)}}
 @media(prefers-reduced-motion:reduce){.hero-photo{transition:none;transform:none}}
 .hero{background:linear-gradient(90deg,rgba(10,10,16,.88) 0%,rgba(10,10,16,.6) 50%,rgba(10,10,16,.45) 100%),linear-gradient(0deg,var(--bg) 0%,transparent 25%),url(bg-scene1.jpg) center/cover no-repeat}
+
+.subtabs{margin-top:-16px;font-size:.92em}.subtabs button{padding:5px 14px;opacity:.85}
