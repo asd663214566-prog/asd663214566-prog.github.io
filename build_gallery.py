@@ -60,6 +60,11 @@ def index():
                 it["thumb"] = f"images/{slug}/thumbs/{f.name}" if t.exists() else it["src"]
                 im = Image.open(f); it["w"], it["h"] = im.size
             items.append(it)
+    # merge the Featured list (featured.json)
+    feat = json.loads((ROOT / "featured.json").read_text()) if (ROOT / "featured.json").exists() else []
+    for it in items:
+        k = it["src"].split("/")[-1]
+        if k in feat: it["feat"] = feat.index(k) + 1
     (ROOT / "images.json").write_text(json.dumps(items, indent=1))
     (ROOT / "gallery-data.js").write_text("window.GALLERY=" + json.dumps(items) + ";\n")
     print(len(items), "items")
