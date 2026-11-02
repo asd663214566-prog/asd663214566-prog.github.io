@@ -86,7 +86,8 @@
   "title": "2D Artwork",
   "thumb": "images/2d/thumbs/2d-013.png",
   "w": 1600,
-  "h": 601
+  "h": 601,
+  "sub": "concept"
  },
  {
   "cat": "2d",
@@ -110,7 +111,8 @@
   "title": "2D Artwork",
   "thumb": "images/2d/thumbs/2d-016.jpg",
   "w": 1600,
-  "h": 977
+  "h": 977,
+  "sub": "concept"
  },
  {
   "cat": "2d",
@@ -118,7 +120,8 @@
   "title": "2D Artwork",
   "thumb": "images/2d/thumbs/2d-017.jpg",
   "w": 1600,
-  "h": 898
+  "h": 898,
+  "sub": "concept"
  },
  {
   "cat": "2d",
@@ -134,7 +137,8 @@
   "title": "2D Artwork",
   "thumb": "images/2d/thumbs/2d-019.jpg",
   "w": 1600,
-  "h": 771
+  "h": 771,
+  "sub": "concept"
  },
  {
   "cat": "2d",
@@ -151,7 +155,8 @@
   "title": "2D Artwork",
   "thumb": "images/2d/thumbs/2d-021.jpg",
   "w": 1600,
-  "h": 800
+  "h": 800,
+  "sub": "concept"
  },
  {
   "cat": "2d",
@@ -183,7 +188,8 @@
   "title": "2D Artwork",
   "thumb": "images/2d/thumbs/2d-025.jpg",
   "w": 1600,
-  "h": 1275
+  "h": 1275,
+  "sub": "concept"
  },
  {
   "cat": "2d",
@@ -191,7 +197,8 @@
   "title": "2D Artwork",
   "thumb": "images/2d/thumbs/2d-027.jpg",
   "w": 1600,
-  "h": 609
+  "h": 609,
+  "sub": "concept"
  },
  {
   "cat": "2d",
@@ -240,7 +247,8 @@
   "title": "2D Artwork",
   "thumb": "images/2d/thumbs/2d-034.jpg",
   "w": 1600,
-  "h": 754
+  "h": 754,
+  "sub": "concept"
  },
  {
   "cat": "2d",
@@ -256,7 +264,8 @@
   "title": "2D Artwork",
   "thumb": "images/2d/thumbs/2d-036.jpg",
   "w": 1600,
-  "h": 833
+  "h": 833,
+  "sub": "concept"
  },
  {
   "cat": "2d",
@@ -288,7 +297,8 @@
   "title": "2D Artwork",
   "thumb": "images/2d/thumbs/2d-041.jpg",
   "w": 1600,
-  "h": 446
+  "h": 446,
+  "sub": "concept"
  },
  {
   "cat": "2d",
@@ -296,7 +306,8 @@
   "title": "2D Artwork",
   "thumb": "images/2d/thumbs/2d-042.jpg",
   "w": 1600,
-  "h": 613
+  "h": 613,
+  "sub": "concept"
  },
  {
   "cat": "2d",
@@ -312,7 +323,8 @@
   "title": "2D Artwork",
   "thumb": "images/2d/thumbs/2d-044.jpg",
   "w": 1600,
-  "h": 499
+  "h": 499,
+  "sub": "concept"
  },
  {
   "cat": "2d",
@@ -328,7 +340,8 @@
   "title": "2D Artwork",
   "thumb": "images/2d/thumbs/2d-046.jpg",
   "w": 1600,
-  "h": 739
+  "h": 739,
+  "sub": "concept"
  },
  {
   "cat": "2d",
@@ -354,7 +367,8 @@
   "title": "2D Artwork",
   "thumb": "images/2d/thumbs/2d-050.jpg",
   "w": 1600,
-  "h": 625
+  "h": 625,
+  "sub": "concept"
  },
  {
   "cat": "2d",
@@ -378,7 +392,8 @@
   "title": "2D Artwork",
   "thumb": "images/2d/thumbs/2d-053.jpg",
   "w": 1600,
-  "h": 1093
+  "h": 1093,
+  "sub": "concept"
  },
  {
   "cat": "2d",
@@ -386,7 +401,8 @@
   "title": "2D Artwork",
   "thumb": "images/2d/thumbs/2d-054.jpg",
   "w": 1600,
-  "h": 628
+  "h": 628,
+  "sub": "concept"
  },
  {
   "cat": "2d",
@@ -394,7 +410,8 @@
   "title": "2D Artwork",
   "thumb": "images/2d/thumbs/2d-055.jpg",
   "w": 1600,
-  "h": 720
+  "h": 720,
+  "sub": "concept"
  },
  {
   "cat": "2d",
@@ -410,7 +427,8 @@
   "title": "2D Artwork",
   "thumb": "images/2d/thumbs/2d-059.jpg",
   "w": 1600,
-  "h": 734
+  "h": 734,
+  "sub": "concept"
  },
  {
   "cat": "2d",
@@ -418,7 +436,8 @@
   "title": "2D Artwork",
   "thumb": "images/2d/thumbs/2d-060.jpg",
   "w": 1600,
-  "h": 1056
+  "h": 1056,
+  "sub": "concept"
  },
  {
   "cat": "2d",
@@ -434,7 +453,8 @@
   "title": "2D Artwork",
   "thumb": "images/2d/thumbs/2d-062.jpg",
   "w": 1600,
-  "h": 693
+  "h": 693,
+  "sub": "concept"
  },
  {
   "cat": "2d",
@@ -450,7 +470,8 @@
   "title": "2D Artwork",
   "thumb": "images/2d/thumbs/2d-064.jpg",
   "w": 1600,
-  "h": 932
+  "h": 932,
+  "sub": "concept"
  },
  {
   "cat": "2d",
@@ -458,7 +479,8 @@
   "title": "2D Artwork",
   "thumb": "images/2d/thumbs/2d-066.jpg",
   "w": 1600,
-  "h": 668
+  "h": 668,
+  "sub": "concept"
  },
  {
   "cat": "2d",
@@ -466,7 +488,8 @@
   "title": "2D Artwork",
   "thumb": "images/2d/thumbs/2d-067.jpg",
   "w": 1600,
-  "h": 564
+  "h": 564,
+  "sub": "concept"
  },
  {
   "cat": "2d",
@@ -474,7 +497,8 @@
   "title": "2D Artwork",
   "thumb": "images/2d/thumbs/2d-068.jpg",
   "w": 1600,
-  "h": 825
+  "h": 825,
+  "sub": "concept"
  },
  {
   "cat": "2d",
@@ -526,14 +550,6 @@
  },
  {
   "cat": "2d",
-  "src": "images/2d/2d-076.jpg",
-  "title": "2D Artwork",
-  "thumb": "images/2d/thumbs/2d-076.jpg",
-  "w": 1600,
-  "h": 640
- },
- {
-  "cat": "2d",
   "src": "images/2d/2d-077.jpg",
   "title": "2D Artwork",
   "thumb": "images/2d/thumbs/2d-077.jpg",
@@ -563,14 +579,6 @@
   "thumb": "images/2d/thumbs/2d-080.jpg",
   "w": 1600,
   "h": 640
- },
- {
-  "cat": "2d",
-  "src": "images/2d/2d-081.jpg",
-  "title": "2D Artwork",
-  "thumb": "images/2d/thumbs/2d-081.jpg",
-  "w": 1200,
-  "h": 675
  },
  {
   "cat": "2d",
@@ -790,6 +798,22 @@
   "thumb": "images/3d/thumbs/3d-024.jpg",
   "w": 521,
   "h": 424
+ },
+ {
+  "cat": "3d",
+  "src": "images/3d/3d-025.jpg",
+  "title": "3D Portfolio",
+  "thumb": "images/3d/thumbs/3d-025.jpg",
+  "w": 1600,
+  "h": 640
+ },
+ {
+  "cat": "3d",
+  "src": "images/3d/3d-026.jpg",
+  "title": "3D Portfolio",
+  "thumb": "images/3d/thumbs/3d-026.jpg",
+  "w": 1200,
+  "h": 675
  },
  {
   "cat": "anim",
