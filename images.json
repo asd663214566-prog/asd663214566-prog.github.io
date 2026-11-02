@@ -172,7 +172,8 @@
   "title": "2D Artwork",
   "thumb": "images/2d/thumbs/2d-023.png",
   "w": 153,
-  "h": 154
+  "h": 154,
+  "sub": "ui"
  },
  {
   "cat": "2d",
@@ -226,14 +227,6 @@
  },
  {
   "cat": "2d",
-  "src": "images/2d/2d-032.png",
-  "title": "2D Artwork",
-  "thumb": "images/2d/thumbs/2d-032.png",
-  "w": 1600,
-  "h": 707
- },
- {
-  "cat": "2d",
   "src": "images/2d/2d-033.jpg",
   "title": "2D Artwork",
   "thumb": "images/2d/thumbs/2d-033.jpg",
@@ -256,7 +249,8 @@
   "title": "2D Artwork",
   "thumb": "images/2d/thumbs/2d-035.jpg",
   "w": 1280,
-  "h": 720
+  "h": 720,
+  "sub": "ui"
  },
  {
   "cat": "2d",
@@ -273,7 +267,8 @@
   "title": "2D Artwork",
   "thumb": "images/2d/thumbs/2d-037.jpg",
   "w": 1280,
-  "h": 720
+  "h": 720,
+  "sub": "ui"
  },
  {
   "cat": "2d",
@@ -289,7 +284,8 @@
   "title": "2D Artwork",
   "thumb": "images/2d/thumbs/2d-040.png",
   "w": 137,
-  "h": 139
+  "h": 139,
+  "sub": "ui"
  },
  {
   "cat": "2d",
@@ -325,14 +321,6 @@
   "w": 1600,
   "h": 499,
   "sub": "concept"
- },
- {
-  "cat": "2d",
-  "src": "images/2d/2d-045.png",
-  "title": "2D Artwork",
-  "thumb": "images/2d/thumbs/2d-045.png",
-  "w": 1600,
-  "h": 763
  },
  {
   "cat": "2d",
@@ -376,7 +364,8 @@
   "title": "2D Artwork",
   "thumb": "images/2d/thumbs/2d-051.jpg",
   "w": 1280,
-  "h": 720
+  "h": 720,
+  "sub": "ui"
  },
  {
   "cat": "2d",
@@ -595,12 +584,6 @@
   "thumb": "images/2d/thumbs/2d-083.jpg",
   "w": 1600,
   "h": 738
- },
- {
-  "cat": "2d",
-  "src": "images/2d/2d-999.mp4",
-  "title": "2D Artwork",
-  "type": "video"
  },
  {
   "cat": "3d",
@@ -1059,5 +1042,30 @@
   "thumb": "images/slot/thumbs/slot-013.jpg",
   "w": 493,
   "h": 276
+ },
+ {
+  "cat": "slot",
+  "src": "images/slot/slot-014.mp4",
+  "title": "Slot",
+  "type": "video",
+  "poster": "images/slot/slot-014.jpg",
+  "w": 1272,
+  "h": 712
+ },
+ {
+  "cat": "slot",
+  "src": "images/slot/slot-015.png",
+  "title": "Slot",
+  "thumb": "images/slot/thumbs/slot-015.png",
+  "w": 1600,
+  "h": 763
+ },
+ {
+  "cat": "slot",
+  "src": "images/slot/slot-016.png",
+  "title": "Slot",
+  "thumb": "images/slot/thumbs/slot-016.png",
+  "w": 1600,
+  "h": 707
  }
 ]

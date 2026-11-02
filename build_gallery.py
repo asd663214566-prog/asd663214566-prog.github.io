@@ -62,10 +62,12 @@ def index():
             items.append(it)
     # merge the Featured list (featured.json)
     concept = json.loads((ROOT / "concept.json").read_text()) if (ROOT / "concept.json").exists() else []  # 2D concept design (設定圖) sub-filter
+    ui = json.loads((ROOT / "ui.json").read_text()) if (ROOT / "ui.json").exists() else []  # 2D UI sub-filter
     feat = json.loads((ROOT / "featured.json").read_text()) if (ROOT / "featured.json").exists() else []
     for it in items:
         k = it["src"].split("/")[-1]
         if k in concept: it["sub"] = "concept"
+        elif k in ui: it["sub"] = "ui"
         if k in feat: it["feat"] = feat.index(k) + 1
     (ROOT / "images.json").write_text(json.dumps(items, indent=1))
     (ROOT / "gallery-data.js").write_text("window.GALLERY=" + json.dumps(items) + ";\n")
