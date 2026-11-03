@@ -2,7 +2,7 @@ const LINKS=[
  {cat:'ai',title:'2D Anime-Style Art (AI-Assisted)',desc:'2D Japanese anime-style character illustrations created with an AI-assisted workflow, then refined and finished by hand. Hosted externally.',url:'https://drive.google.com/drive/folders/1T2UPp_312KpDKcYWwseq76BCTgn0SSXo',mature:true}
 ].concat(window.EXTRA_LINKS||[]);
 const CATS={featured:'Featured','2d':'2D Artwork',slot:'Slot','3d':'3D Portfolio',anim:'Animation',logo:'Game Logo Design'};
-const R18TABS=[{k:'spine',label:'Spine / HCG (R18)',url:'https://drive.google.com/drive/folders/1ezEzhXOIHc9iuIyjUHb3hdM-IAVJ0bRC'},{k:'ai',label:'2D Anime · AI-Assisted (R18)'}];
+const R18TABS=[{k:'spine',label:'Spine / HCG (R18)',url:'https://drive.google.com/drive/folders/1ezEzhXOIHc9iuIyjUHb3hdM-IAVJ0bRC'},{k:'ai',label:'2D Anime · AI-Assisted (R18)',url:'https://drive.google.com/drive/folders/1T2UPp_312KpDKcYWwseq76BCTgn0SSXo'}];
 const esc=s=>String(s==null?'':s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
 const items=window.GALLERY||[];const grid=document.getElementById('grid'),tabs=document.getElementById('tabs');let cur='featured',sub='',vis=[];
 const SUBS={'':'All 2D',concept:'Concept Design',ui:'UI',illus:'Illustration'};const subtabs=document.createElement('div');subtabs.className='tabs subtabs';subtabs.id='subtabs';tabs.after(subtabs);
