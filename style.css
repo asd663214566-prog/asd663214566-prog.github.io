@@ -21,7 +21,9 @@ section{padding:90px 5vw}h2{font-family:'Space Grotesk',sans-serif;font-size:2.2
 .card{break-inside:avoid;margin:0 0 14px;border-radius:10px;overflow:hidden;background:var(--bg2);cursor:zoom-in;position:relative;display:block}
 .card img,.card video{width:100%;height:auto;display:block;transition:transform .4s}.card:hover img{transform:scale(1.04)}
 .card .tag{position:absolute;left:10px;bottom:10px;font-size:.72rem;background:rgba(0,0,0,.6);padding:3px 9px;border-radius:999px;opacity:0;transition:.2s}.card:hover .tag{opacity:1}
-.link{cursor:pointer;text-decoration:none;padding:28px;border:1px dashed #3a3d50;background:linear-gradient(135deg,#1a1726,#14161e)}
+.card .tag.named{opacity:1;max-width:calc(100% - 20px);white-space:normal;line-height:1.35;border-radius:8px}
+.card.link[role="button"]:focus-visible{outline:2px solid var(--ac2);outline-offset:2px}
+.link{cursor:pointer;text-decoration:none;padding:28px;border:1px dashed #3a3d50;background:linear-gradient(135deg,#1a1726,#14161e);column-span:all}
 .link h3{margin:0 0 6px;font-family:'Space Grotesk',sans-serif}.link p{margin:0 0 12px;color:var(--mut);font-size:.9rem}.link span{color:var(--ac)}
 .mature{border-color:#7a3340}.mature .badge{display:inline-block;background:#7a3340;font-size:.7rem;padding:2px 8px;border-radius:4px;margin-bottom:10px;letter-spacing:.08em}
 .about{display:grid;grid-template-columns:1fr 1fr;gap:50px;background:var(--bg2)}
