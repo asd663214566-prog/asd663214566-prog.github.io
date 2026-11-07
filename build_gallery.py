@@ -1,7 +1,8 @@
 #!/usr/bin/env python3
 """Optimize raw images into images/<category>/ and regenerate images.json.
 Usage: python3 build_gallery.py [RAW_DIR]   (RAW_DIR has one subfolder per category slug)
-Or just drop already-optimized files into images/<category>/ (name.jpg + thumbs/name.jpg) and run with no args."""
+Or just drop already-optimized files into images/<category>/ (name.jpg + thumbs/name.jpg) and run with no args.
+titles.json, if present, maps a filename to that item's gallery title."""
 import json, os, sys, shutil
 from pathlib import Path
 from PIL import Image
@@ -42,12 +43,13 @@ def ingest(raw):
             except Exception as ex: print("skip", f, ex)
 def index():
     items = []
+    titles = json.loads((ROOT / "titles.json").read_text()) if (ROOT / "titles.json").exists() else {}
     for slug, label in CATS.items():
         d = IMG / slug
         if not d.exists(): continue
         for f in sorted(d.iterdir()):
             if not f.is_file(): continue
-            e = f.suffix.lower(); it = {"cat": slug, "src": f"images/{slug}/{f.name}", "title": label}
+            e = f.suffix.lower(); it = {"cat": slug, "src": f"images/{slug}/{f.name}", "title": titles.get(f.name, label)}
             if e in (".mp4", ".webm"):
                 it["type"] = "video"
                 for pe in (".jpg", ".png"):  # poster sits flat next to the video (same stem)
@@ -69,8 +71,8 @@ def index():
         if k in concept: it["sub"] = "concept"
         elif k in ui: it["sub"] = "ui"
         if k in feat: it["feat"] = feat.index(k) + 1
-    (ROOT / "images.json").write_text(json.dumps(items, indent=1))
-    (ROOT / "gallery-data.js").write_text("window.GALLERY=" + json.dumps(items) + ";\n")
+    (ROOT / "images.json").write_text(json.dumps(items, indent=1, ensure_ascii=False))
+    (ROOT / "gallery-data.js").write_text("window.GALLERY=" + json.dumps(items, ensure_ascii=False) + ";\n")
     print(len(items), "items")
 if __name__ == "__main__":
     if len(sys.argv) > 1: ingest(sys.argv[1])
